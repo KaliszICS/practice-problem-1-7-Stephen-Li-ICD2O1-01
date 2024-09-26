@@ -24,7 +24,8 @@ def q5():
   num2 = int(input("Input another integer: "))
   num = num1 * num2
   bool = (num > 40)
-  print(bool)
+  value = (f"Your numbers multiplied together are greater than 40: {bool}")
+  print(value)
 
 #Do edit the code below
 #Comment the lines below when running your tests
